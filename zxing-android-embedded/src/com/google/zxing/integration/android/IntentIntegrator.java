@@ -169,9 +169,17 @@ public class IntentIntegrator {
      *
      * @param prompt the prompt to display
      */
-    public final IntentIntegrator setPrompt(String prompt) {
+//     public final IntentIntegrator setPrompt(String prompt) {
+//         if (prompt != null) {
+//             addExtra(Intents.Scan.PROMPT_MESSAGE, prompt);
+//         }
+//         return this;
+//     }
+    
+        public final IntentIntegrator setPrompt(String prompt, String errPrompt) {
         if (prompt != null) {
-            addExtra(Intents.Scan.PROMPT_MESSAGE, prompt);
+            addExtra("PROMPT_MESSAGE", prompt);
+		    addExtra"PROMPT_ERR_MESSAGE";errPrompt) );
         }
         return this;
     }
