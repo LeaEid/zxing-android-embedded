@@ -118,6 +118,8 @@ public final class Intents {
          * Prompt to show on-screen when scanning by intent. Specified as a {@link String}.
          */
         public static final String PROMPT_MESSAGE = "PROMPT_MESSAGE";
+        
+        public static final String PROMPT_ERR_MESSAGE = "PROMPT_ERR_MESSAGE";
 
         /**
          * If a barcode is found, Barcodes returns {@link android.app.Activity#RESULT_OK} to
