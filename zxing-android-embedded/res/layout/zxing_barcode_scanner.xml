@@ -18,4 +18,13 @@
               android:background="@color/zxing_transparent"
               android:text="@string/zxing_msg_default_status"
               android:textColor="@color/zxing_status_text"/>
+    
+    
+    <TextView android:id="@+id/zxing_err_status_view"       
+        android:layout_width="wrap_content"          
+        android:layout_height="wrap_content"          
+        android:layout_gravity="bottom|center_horizontal"          
+        android:background="@color/zxing_red"          
+        android:text="@string/zxing_err_msg_default_status"          
+        android:textColor="@color/zxing_err_status_view" />
 </merge>
